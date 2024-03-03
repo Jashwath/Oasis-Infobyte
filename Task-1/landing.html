@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homeo Decors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: inline-block;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+        }
+        .hero-image {
+            background-image: url("header.jpg");
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .main-content {
+            padding: 50px;
+            text-align: center;
+        }
+        .product-showcase {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .product-card {
+            width: 300px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="hero-image">
+        <h1>Welcome to Homeo Decors</h1>
+    </div>
+    <div class="main-content">
+        <h2>Explore Our Collection</h2>
+        <h2><br>Your destination for premium home decor</h2>
+        <div class="product-showcase">
+            <div class="product-card">
+                <img src="display-1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+            </div>
+            <div class="product-card">
+                <img src="display-2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+            </div>
+            <div class="product-card">
+                <img src="display-3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Homeo Decors. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
